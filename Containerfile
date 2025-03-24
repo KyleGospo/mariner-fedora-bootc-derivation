@@ -1,7 +1,7 @@
 FROM scratch AS ctx
 COPY build_files /
 
-FROM ghcr.io/KyleGospo/mariner-fedora-bootc-base:latest
+FROM ghcr.io/KyleGospo/mariner-fedora-bootc-base:latest@sha256:d82f8314af7be3ad5b563e3ec0733ac2749eebc61b58efd8765d214bc29272ac
 
 COPY system_files /
 
